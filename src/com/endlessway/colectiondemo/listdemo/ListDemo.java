@@ -1,14 +1,11 @@
 package com.endlessway.colectiondemo.listdemo;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.*;
 
 public class ListDemo {
     public static void main(String[] args) {
-        ArrayList<String> arrayList = new ArrayList<>();
-        LinkedList<String> linkedList = new LinkedList<>();
+        List<String> arrayList = new ArrayList<>();
+        List<String> linkedList = new LinkedList<>();
     }
 }
 
@@ -24,7 +21,7 @@ class ArrayListDemo{
         | public E   get(int   index)           | 返回指定索引处的元素                   |
         | public int   size()                   | 返回集合中的元素的个数                 |
 * */
-        ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
         list.add("3");
@@ -45,7 +42,7 @@ class ArrayListDemo{
         //clear 清空
 //        list.clear();
         // 添加一个集合
-        ArrayList<String> strList = new ArrayList<>();
+        List<String> strList = new ArrayList<>();
         strList.add("张飞");
         strList.add("刘备");
         strList.add("关羽");
@@ -57,7 +54,7 @@ class ArrayListDemo{
         }
 
 
-        ArrayList<Student> arrayList = new ArrayList<>();
+        List<Student> arrayList = new ArrayList<>();
         arrayList.add(new Student("lisi",20));
         arrayList.add(new Student("wangwu",22));
         arrayList.add(new Student("mazi",21));
@@ -167,3 +164,5 @@ class Student {
                 '}';
     }
 }
+
+
